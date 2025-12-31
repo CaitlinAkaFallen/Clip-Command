@@ -101,11 +101,11 @@ public class CPHInline
         // Discord webhook (Daniela)
         // -------------------------
         string webhookUrl =
-            "https://discord.com/api/webhooks/910986240105545769/CbpqzXRt0lM2qB1A900ZcOk-Xdrs4nvLje7aNxr4BrrpO3nDxhLSQ4mnR7_pNWdIVMUo"; // REPLACE WITH YOUR OWN WEBHOOK URL 
+            "DISCORD_WEBHOOK_URL_HERE"; // REPLACE WITH YOUR OWN WEBHOOK URL 
 
         string discordJson =
             "{"
-            + "\"username\":\"Daniela Dimitrescu\"," // Webhook bot name
+            + "\"username\":\"DISCORD_BOT_NAME_HERE\"," // Webhook bot name
             + "\"content\":\"**Oh great…I have been caught in the most embarrassing way. "
             + "Big thanks to @" + EscapeJson(user) + " for spilling all my dark secrets**\\n"
             + "**Title:** " + EscapeJson(clipTitle) + "\\n"
@@ -158,3 +158,4 @@ public class CPHInline
             .Replace("\r", "");
     }
 }
+
