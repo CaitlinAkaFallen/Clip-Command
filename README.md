@@ -26,7 +26,7 @@ Import the Clip-Command script into Streamer.bot as a C# Inline Action.
 
 Update the Discord webhook in the script to your own:
 
-string discordWebhook = "YOUR_DISCORD_WEBHOOK_URL_HERE";
+use your own DISCORD WEBHOOK URL
 
 
 Usage
